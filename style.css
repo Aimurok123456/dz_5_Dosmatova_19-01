@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body {
+    background: #f2f2f2;
+    overflow: auto;
+}
+h1 {
+    text-align: center;
+    margin: 5%;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+ul {
+    text-align: left;
+    padding: 7%;
+    padding-left: 10%;
+    font-size: 2rem;
+    list-style: circle;
+}
+li:hover {
+    color: red;
+    margin: 4%;
+    transition: 1.5s ease;
+    cursor: pointer;
+}
+.row {
+    justify-content: center;
+}
+.form-group {
+    text-align: center;
+}
+.form-inline {
+    display: flex;
+}
+.form-control-1 {
+    margin-right: 20px;
+}
+.form-control-2 {
+    margin-left: 20px;
+}
+
